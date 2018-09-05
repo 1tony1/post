@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/*通用*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #aaa;
+}
+
+/*功能Css*/
+.f1 {
+	float: left;
+}
+
+.overFloat {
+	overflow: hidden;
+}
+
+.border {
+	padding: 0 !important;
+	border: 10px solid orange;
+}
+
+/*主面板*/
+#container {
+	width: 960px;
+	min-height: 469px;
+	margin: 30px auto;
+	position: relative;
+	border: 1px solid #000000;
+}
+
+/*标题*/
+#banner {
+	width: 100%;
+	position: relative;
+	background: #613712;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+/*图片*/
+#imgBox {
+	width: 750px;
+	position: relative;
+	left: calc(50% - 375px);
+	padding: 20px 35px;
+}
+
+#imgBox img {
+	margin-left: 25px;
+	margin-right: 25px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+/*内容*/
+#content {
+	width: 616px;
+	position: relative;
+	left: calc(50% - 308px);
+	padding-bottom: 20px;
+}
+
+#content .content_item {
+	width: 100%;
+}
+
+#content .content_item h2 {
+	color: #888888;
+}
+
+#content .p1 {
+	padding: 5px 0;
+	font-size: 20px;
+	color: green;
+	font-weight: bold;
+}
+
+#content .jieShao {
+	text-indent: 2em;
+	font-weight: 600;
+	color: #666;
+}
